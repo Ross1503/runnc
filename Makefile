@@ -88,7 +88,7 @@ build/nabla-run: solo5/tenders/spt/solo5-spt
 	install -m 775 -D $< $@
 
 tests/integration/node.nabla:
-	wget -nc ${RELEASE_SERVER}/node-${ARCH}.nabla -O $@ && chmod +x $@
+	wget -nc ${RELEASE_SERVER}/node.nabla -O $@ && chmod +x $@
 
 tests/integration/test_hello.nabla: solo5/tests/test_hello/test_hello.spt
 	install -m 664 -D $< $@
