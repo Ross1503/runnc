@@ -11,6 +11,10 @@ go:
   - 1.11.x
   - tip
 
+arch:
+  - arm64
+  - amd64
+
 matrix:
   include:
     - go: "1.12"
